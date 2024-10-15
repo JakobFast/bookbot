@@ -26,7 +26,7 @@ def print_char_report(char_counts):
     # Sort the characters in revers Order
     sorted_chars = sorted(char_counts.items(), key=lambda x: x[1], reverse=True)
     for char, count in sorted_chars[:]:
-        print(f"The '{char}' character was found {count}times")
+        print(f"The '{char}' character was found {count} times")
 
 
 def get_book_text(path):
